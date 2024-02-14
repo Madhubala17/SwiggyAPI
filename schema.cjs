@@ -14,6 +14,9 @@ const restaurantsSchema = new mongoose.Schema({
     cuisines : {
         type : Array
     },
+    imagelink : {
+        type : String
+    },
     name : {
         type : String
     }
